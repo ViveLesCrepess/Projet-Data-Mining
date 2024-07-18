@@ -9,6 +9,7 @@ import seaborn as sns
 import csv
 from io import StringIO
 
+
 # Custom function to load data with error handling for bad lines
 def custom_load_data():
     uploaded_file = st.file_uploader("Choose a CSV file", type='csv')
@@ -184,6 +185,7 @@ elif selected == "Clustering":
             st.write(model.cluster_centers_)
         st.write("Number of data points in each cluster")
         st.write(data['Cluster'].value_counts())
+        st.write("J'suis trop jsp quoi")
 
 else:
     st.write("Please select an option from the menu to get started")
