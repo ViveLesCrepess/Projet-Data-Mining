@@ -20,8 +20,10 @@ This is how to step in!
 *	Install and import all the imports in the requirements.txt file
   
 ## Begin to work
-*	Run the python code
+*	Run the python code.
 *	The program runs via streamlit, use this command to open it after you ran the program: streamlit run YOUR_FOLDER_PATH\main.py
+*	Upload your .csv file and select the right delimiter.
+*	Now you should have full access to the app's functionalities and parameters.
   
 ## Authors
 *	Wilhem HARAT
